@@ -1,0 +1,39 @@
+Feature: Exception feature file
+
+  Scenario: Scenario Number One # stepdef/exception.feature:3
+    Given Raise an exception    # Stepdefs.raiseException()
+      java.lang.AssertionError: Fail it!!
+	at stepdef.Stepdefs.raiseException(Stepdefs.java:23)
+	at ✽.Raise an exception(classpath:stepdef/exception.feature:4)
+
+
+Feature: Scenario Outlines feature file
+
+  Scenario Outline: Scenario Outline Row <row_num> # stepdef/scenariooutlines.feature:3
+    Given Write a 'given' step with precondition in '<scenario_num>'
+    When Complete action in 'when' step in '<scenario_num>'
+    Then Validate the outcome in 'then' step in '<scenario_num>'
+
+    Examples: 
+
+  Scenario Outline: Scenario Outline Row 1                                 # stepdef/scenariooutlines.feature:10
+    Given Write a 'given' step with precondition in 'Scenario Outline One' # Stepdefs.step(String,String)
+    When Complete action in 'when' step in 'Scenario Outline One'          # Stepdefs.step(String,String)
+    Then Validate the outcome in 'then' step in 'Scenario Outline One'     # Stepdefs.step(String,String)
+
+  Scenario Outline: Scenario Outline Row 2                                 # stepdef/scenariooutlines.feature:11
+    Given Write a 'given' step with precondition in 'Scenario Outline Two' # Stepdefs.step(String,String)
+    When Complete action in 'when' step in 'Scenario Outline Two'          # Stepdefs.step(String,String)
+    Then Validate the outcome in 'then' step in 'Scenario Outline Two'     # Stepdefs.step(String,String)
+
+Feature: Scenarios feature file
+
+  Scenario: Scenario Number One                                    # stepdef/scenarios.feature:3
+    Given Write a 'given' step with precondition in 'Scenario One' # Stepdefs.step(String,String)
+    When Complete action in 'when' step in 'Scenario One'          # Stepdefs.step(String,String)
+    Then Validate the outcome in 'then' step in 'Scenario One'     # Stepdefs.step(String,String)
+
+  Scenario: Scenario Number Two                                    # stepdef/scenarios.feature:8
+    Given Write a 'given' step with precondition in 'Scenario Two' # Stepdefs.step(String,String)
+    When Complete action in 'when' step in 'Scenario Two'          # Stepdefs.step(String,String)
+    Then Validate the outcome in 'then' step in 'Scenario Two'     # Stepdefs.step(String,String)

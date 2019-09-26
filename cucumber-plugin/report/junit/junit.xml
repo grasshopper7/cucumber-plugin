@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="5" time="0.126483">
+<testcase classname="Exception feature file" name="Scenario Number One" time="0.044053">
+<failure message="java.lang.AssertionError: Fail it!!&#13;&#10;&#9;at stepdef.Stepdefs.raiseException(Stepdefs.java:23)&#13;&#10;&#9;at ✽.Raise an exception(classpath:stepdef/exception.feature:4)&#13;&#10;"><![CDATA[Given Raise an exception....................................................failed
+
+StackTrace:
+java.lang.AssertionError: Fail it!!
+	at stepdef.Stepdefs.raiseException(Stepdefs.java:23)
+	at ✽.Raise an exception(classpath:stepdef/exception.feature:4)
+]]></failure>
+</testcase>
+<testcase classname="Scenario Outlines feature file" name="Scenario Outline Row 1" time="0.058884">
+<system-out><![CDATA[Given Write a 'given' step with precondition in 'Scenario Outline One'......passed
+When Complete action in 'when' step in 'Scenario Outline One'...............passed
+Then Validate the outcome in 'then' step in 'Scenario Outline One'..........passed
+]]></system-out>
+</testcase>
+<testcase classname="Scenario Outlines feature file" name="Scenario Outline Row 2" time="0.006783">
+<system-out><![CDATA[Given Write a 'given' step with precondition in 'Scenario Outline Two'......passed
+When Complete action in 'when' step in 'Scenario Outline Two'...............passed
+Then Validate the outcome in 'then' step in 'Scenario Outline Two'..........passed
+]]></system-out>
+</testcase>
+<testcase classname="Scenarios feature file" name="Scenario Number One" time="0.011442">
+<system-out><![CDATA[Given Write a 'given' step with precondition in 'Scenario One'..............passed
+When Complete action in 'when' step in 'Scenario One'.......................passed
+Then Validate the outcome in 'then' step in 'Scenario One'..................passed
+]]></system-out>
+</testcase>
+<testcase classname="Scenarios feature file" name="Scenario Number Two" time="0.005321">
+<system-out><![CDATA[Given Write a 'given' step with precondition in 'Scenario Two'..............passed
+When Complete action in 'when' step in 'Scenario Two'.......................passed
+Then Validate the outcome in 'then' step in 'Scenario Two'..................passed
+]]></system-out>
+</testcase>
+</testsuite>

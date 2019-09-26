@@ -7,6 +7,6 @@ import io.cucumber.junit.CucumberOptions;
 
 
 @RunWith(Cucumber.class)
-@CucumberOptions(plugin = {"plugin.CustomPlugin","summary","progress"}, monochrome = true)
+@CucumberOptions(plugin = {"plugin.CustomPlugin:report/custom/custom.txt"})
 public class RunCustomPluginTest {
 }

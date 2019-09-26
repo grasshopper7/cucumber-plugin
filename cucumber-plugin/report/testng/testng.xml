@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testng-results failed="1" passed="4" skipped="0" total="5">
+<suite duration-ms="11" name="cucumber.runtime.formatter.TestNGFormatter">
+<test duration-ms="11" name="cucumber.runtime.formatter.TestNGFormatter">
+<class name="Exception feature file">
+<test-method duration-ms="3" finished-at="2019-09-26T23:56:53Z" name="Scenario Number One" started-at="2019-09-26T23:56:53Z" status="FAIL">
+<exception class="java.lang.AssertionError">
+<message><![CDATA[Given Raise an exception....................................................failed
+]]></message>
+<full-stacktrace><![CDATA[java.lang.AssertionError: Fail it!!
+	at stepdef.Stepdefs.raiseException(Stepdefs.java:23)
+	at ✽.Raise an exception(classpath:stepdef/exception.feature:4)
+]]></full-stacktrace>
+</exception>
+</test-method>
+</class>
+<class name="Scenario Outlines feature file">
+<test-method duration-ms="3" finished-at="2019-09-26T23:56:53Z" name="Scenario Outline Row 1" started-at="2019-09-26T23:56:53Z" status="PASS"/>
+<test-method duration-ms="2" finished-at="2019-09-26T23:56:53Z" name="Scenario Outline Row 2" started-at="2019-09-26T23:56:53Z" status="PASS"/>
+</class>
+<class name="Scenarios feature file">
+<test-method duration-ms="2" finished-at="2019-09-26T23:56:53Z" name="Scenario Number One" started-at="2019-09-26T23:56:53Z" status="PASS"/>
+<test-method duration-ms="1" finished-at="2019-09-26T23:56:53Z" name="Scenario Number Two" started-at="2019-09-26T23:56:53Z" status="PASS"/>
+</class>
+</test>
+</suite>
+</testng-results>

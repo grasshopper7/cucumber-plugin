@@ -6,9 +6,9 @@ import io.cucumber.junit.CucumberOptions;
 import io.cucumber.junit.Cucumber;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(plugin = { "junit:target/junit/junit.xml", "testng:target/testng/testng.xml", "html:target/html",
-		"pretty:target/pretty/pretty.txt", "progress:target/progress/progress.txt", "json:target/json/json.json",
-		"usage:target/usage/usage.json", "rerun:target/rerun/rerun.txt", "default_summary",
-		"unused:target/unused/unused.txt", "timeline:target/timeline" }, monochrome = true)
+@CucumberOptions(plugin = { "junit:report/junit/junit.xml", "testng:report/testng/testng.xml", "html:report/html",
+		"pretty:report/pretty/pretty.txt", "progress:report/progress/progress.txt", "json:report/json/json.json",
+		"usage:report/usage/usage.json", "rerun:report/rerun/rerun.txt", "summary",
+		"unused:report/unused/unused.txt", "timeline:report/timeline" }, monochrome = true)
 public class RunInBuiltPluginTest {
 }

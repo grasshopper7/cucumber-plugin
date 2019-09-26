@@ -1,0 +1,173 @@
+[
+  {
+    "source": "Write a {string} step with precondition in {string}",
+    "steps": [
+      {
+        "name": "Write a \u0027given\u0027 step with precondition in \u0027Scenario Outline One\u0027",
+        "aggregatedDurations": {
+          "median": 0.001434005,
+          "average": 0.001434005
+        },
+        "durations": [
+          {
+            "duration": 0.001434005,
+            "location": "classpath:stepdef/scenariooutlines.feature:4"
+          }
+        ]
+      },
+      {
+        "name": "Write a \u0027given\u0027 step with precondition in \u0027Scenario Outline Two\u0027",
+        "aggregatedDurations": {
+          "median": 0.000829043,
+          "average": 0.000829043
+        },
+        "durations": [
+          {
+            "duration": 0.000829043,
+            "location": "classpath:stepdef/scenariooutlines.feature:4"
+          }
+        ]
+      },
+      {
+        "name": "Write a \u0027given\u0027 step with precondition in \u0027Scenario One\u0027",
+        "aggregatedDurations": {
+          "median": 0.000998957,
+          "average": 0.000998957
+        },
+        "durations": [
+          {
+            "duration": 0.000998957,
+            "location": "classpath:stepdef/scenarios.feature:4"
+          }
+        ]
+      },
+      {
+        "name": "Write a \u0027given\u0027 step with precondition in \u0027Scenario Two\u0027",
+        "aggregatedDurations": {
+          "median": 0.000641453,
+          "average": 0.000641453
+        },
+        "durations": [
+          {
+            "duration": 0.000641453,
+            "location": "classpath:stepdef/scenarios.feature:9"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "Complete action in {string} step in {string}",
+    "steps": [
+      {
+        "name": "Complete action in \u0027when\u0027 step in \u0027Scenario Outline One\u0027",
+        "aggregatedDurations": {
+          "median": 0.000869526,
+          "average": 0.000869526
+        },
+        "durations": [
+          {
+            "duration": 0.000869526,
+            "location": "classpath:stepdef/scenariooutlines.feature:5"
+          }
+        ]
+      },
+      {
+        "name": "Complete action in \u0027when\u0027 step in \u0027Scenario Outline Two\u0027",
+        "aggregatedDurations": {
+          "median": 0.000894044,
+          "average": 0.000894044
+        },
+        "durations": [
+          {
+            "duration": 0.000894044,
+            "location": "classpath:stepdef/scenariooutlines.feature:5"
+          }
+        ]
+      },
+      {
+        "name": "Complete action in \u0027when\u0027 step in \u0027Scenario One\u0027",
+        "aggregatedDurations": {
+          "median": 0.000988694,
+          "average": 0.000988694
+        },
+        "durations": [
+          {
+            "duration": 0.000988694,
+            "location": "classpath:stepdef/scenarios.feature:5"
+          }
+        ]
+      },
+      {
+        "name": "Complete action in \u0027when\u0027 step in \u0027Scenario Two\u0027",
+        "aggregatedDurations": {
+          "median": 0.000711016,
+          "average": 0.000711016
+        },
+        "durations": [
+          {
+            "duration": 0.000711016,
+            "location": "classpath:stepdef/scenarios.feature:10"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "Validate the outcome in {string} step in {string}",
+    "steps": [
+      {
+        "name": "Validate the outcome in \u0027then\u0027 step in \u0027Scenario Outline One\u0027",
+        "aggregatedDurations": {
+          "median": 0.000742376,
+          "average": 0.000742376
+        },
+        "durations": [
+          {
+            "duration": 0.000742376,
+            "location": "classpath:stepdef/scenariooutlines.feature:6"
+          }
+        ]
+      },
+      {
+        "name": "Validate the outcome in \u0027then\u0027 step in \u0027Scenario Outline Two\u0027",
+        "aggregatedDurations": {
+          "median": 0.000826192,
+          "average": 0.000826192
+        },
+        "durations": [
+          {
+            "duration": 0.000826192,
+            "location": "classpath:stepdef/scenariooutlines.feature:6"
+          }
+        ]
+      },
+      {
+        "name": "Validate the outcome in \u0027then\u0027 step in \u0027Scenario One\u0027",
+        "aggregatedDurations": {
+          "median": 0.000893473,
+          "average": 0.000893473
+        },
+        "durations": [
+          {
+            "duration": 0.000893473,
+            "location": "classpath:stepdef/scenarios.feature:6"
+          }
+        ]
+      },
+      {
+        "name": "Validate the outcome in \u0027then\u0027 step in \u0027Scenario Two\u0027",
+        "aggregatedDurations": {
+          "median": 0.000604962,
+          "average": 0.000604962
+        },
+        "durations": [
+          {
+            "duration": 0.000604962,
+            "location": "classpath:stepdef/scenarios.feature:11"
+          }
+        ]
+      }
+    ]
+  }
+]
