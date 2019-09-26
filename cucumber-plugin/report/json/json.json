@@ -3,18 +3,18 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2019-09-26T18:26:53.069Z",
+        "start_timestamp": "2019-09-26T19:25:12.841Z",
         "line": 3,
-        "name": "Scenario Number One",
+        "name": "Exception scenario",
         "description": "",
-        "id": "exception-feature-file;scenario-number-one",
+        "id": "exception-feature-file;exception-scenario",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
               "error_message": "java.lang.AssertionError: Fail it!!\r\n\tat stepdef.Stepdefs.raiseException(Stepdefs.java:23)\r\n\tat ✽.Raise an exception(classpath:stepdef/exception.feature:4)\r\n",
-              "duration": 3402840,
+              "duration": 3259155,
               "status": "failed"
             },
             "line": 4,
@@ -38,7 +38,7 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2019-09-26T18:26:53.122Z",
+        "start_timestamp": "2019-09-26T19:25:12.897Z",
         "line": 10,
         "name": "Scenario Outline Row 1",
         "description": "",
@@ -48,7 +48,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1434005,
+              "duration": 1288610,
               "status": "passed"
             },
             "line": 4,
@@ -70,7 +70,7 @@
           },
           {
             "result": {
-              "duration": 869526,
+              "duration": 1336504,
               "status": "passed"
             },
             "line": 5,
@@ -92,7 +92,7 @@
           },
           {
             "result": {
-              "duration": 742376,
+              "duration": 514873,
               "status": "passed"
             },
             "line": 6,
@@ -115,7 +115,7 @@
         ]
       },
       {
-        "start_timestamp": "2019-09-26T18:26:53.182Z",
+        "start_timestamp": "2019-09-26T19:25:12.925Z",
         "line": 11,
         "name": "Scenario Outline Row 2",
         "description": "",
@@ -125,7 +125,7 @@
         "steps": [
           {
             "result": {
-              "duration": 829043,
+              "duration": 1029747,
               "status": "passed"
             },
             "line": 4,
@@ -147,7 +147,7 @@
           },
           {
             "result": {
-              "duration": 894044,
+              "duration": 870097,
               "status": "passed"
             },
             "line": 5,
@@ -169,7 +169,7 @@
           },
           {
             "result": {
-              "duration": 826192,
+              "duration": 872947,
               "status": "passed"
             },
             "line": 6,
@@ -203,7 +203,7 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2019-09-26T18:26:53.190Z",
+        "start_timestamp": "2019-09-26T19:25:12.934Z",
         "line": 3,
         "name": "Scenario Number One",
         "description": "",
@@ -213,7 +213,7 @@
         "steps": [
           {
             "result": {
-              "duration": 998957,
+              "duration": 939088,
               "status": "passed"
             },
             "line": 4,
@@ -235,7 +235,7 @@
           },
           {
             "result": {
-              "duration": 988694,
+              "duration": 1000668,
               "status": "passed"
             },
             "line": 5,
@@ -257,7 +257,7 @@
           },
           {
             "result": {
-              "duration": 893473,
+              "duration": 896895,
               "status": "passed"
             },
             "line": 6,
@@ -280,7 +280,7 @@
         ]
       },
       {
-        "start_timestamp": "2019-09-26T18:26:53.204Z",
+        "start_timestamp": "2019-09-26T19:25:12.946Z",
         "line": 8,
         "name": "Scenario Number Two",
         "description": "",
@@ -290,7 +290,7 @@
         "steps": [
           {
             "result": {
-              "duration": 641453,
+              "duration": 845578,
               "status": "passed"
             },
             "line": 9,
@@ -312,7 +312,7 @@
           },
           {
             "result": {
-              "duration": 711016,
+              "duration": 893474,
               "status": "passed"
             },
             "line": 10,
@@ -334,7 +334,7 @@
           },
           {
             "result": {
-              "duration": 604962,
+              "duration": 799964,
               "status": "passed"
             },
             "line": 11,

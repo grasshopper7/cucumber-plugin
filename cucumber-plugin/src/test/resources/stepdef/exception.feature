@@ -1,4 +1,4 @@
 Feature: Exception feature file
 
-  Scenario: Scenario Number One
+  Scenario: Exception scenario
     Given Raise an exception

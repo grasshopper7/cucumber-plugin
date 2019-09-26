@@ -1,7 +1,7 @@
 Feature: Exception feature file
 
-  Scenario: Scenario Number One # stepdef/exception.feature:3
-    Given Raise an exception    # Stepdefs.raiseException()
+  Scenario: Exception scenario # stepdef/exception.feature:3
+    Given Raise an exception   # Stepdefs.raiseException()
       java.lang.AssertionError: Fail it!!
 	at stepdef.Stepdefs.raiseException(Stepdefs.java:23)
 	at ✽.Raise an exception(classpath:stepdef/exception.feature:4)

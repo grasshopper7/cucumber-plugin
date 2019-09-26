@@ -5,12 +5,12 @@
       {
         "name": "Write a \u0027given\u0027 step with precondition in \u0027Scenario Outline One\u0027",
         "aggregatedDurations": {
-          "median": 0.001434005,
-          "average": 0.001434005
+          "median": 0.00128861,
+          "average": 0.001288610
         },
         "durations": [
           {
-            "duration": 0.001434005,
+            "duration": 0.00128861,
             "location": "classpath:stepdef/scenariooutlines.feature:4"
           }
         ]
@@ -18,12 +18,12 @@
       {
         "name": "Write a \u0027given\u0027 step with precondition in \u0027Scenario Outline Two\u0027",
         "aggregatedDurations": {
-          "median": 0.000829043,
-          "average": 0.000829043
+          "median": 0.001029747,
+          "average": 0.001029747
         },
         "durations": [
           {
-            "duration": 0.000829043,
+            "duration": 0.001029747,
             "location": "classpath:stepdef/scenariooutlines.feature:4"
           }
         ]
@@ -31,12 +31,12 @@
       {
         "name": "Write a \u0027given\u0027 step with precondition in \u0027Scenario One\u0027",
         "aggregatedDurations": {
-          "median": 0.000998957,
-          "average": 0.000998957
+          "median": 0.000939088,
+          "average": 0.000939088
         },
         "durations": [
           {
-            "duration": 0.000998957,
+            "duration": 0.000939088,
             "location": "classpath:stepdef/scenarios.feature:4"
           }
         ]
@@ -44,12 +44,12 @@
       {
         "name": "Write a \u0027given\u0027 step with precondition in \u0027Scenario Two\u0027",
         "aggregatedDurations": {
-          "median": 0.000641453,
-          "average": 0.000641453
+          "median": 0.000845578,
+          "average": 0.000845578
         },
         "durations": [
           {
-            "duration": 0.000641453,
+            "duration": 0.000845578,
             "location": "classpath:stepdef/scenarios.feature:9"
           }
         ]
@@ -62,12 +62,12 @@
       {
         "name": "Complete action in \u0027when\u0027 step in \u0027Scenario Outline One\u0027",
         "aggregatedDurations": {
-          "median": 0.000869526,
-          "average": 0.000869526
+          "median": 0.001336504,
+          "average": 0.001336504
         },
         "durations": [
           {
-            "duration": 0.000869526,
+            "duration": 0.001336504,
             "location": "classpath:stepdef/scenariooutlines.feature:5"
           }
         ]
@@ -75,12 +75,12 @@
       {
         "name": "Complete action in \u0027when\u0027 step in \u0027Scenario Outline Two\u0027",
         "aggregatedDurations": {
-          "median": 0.000894044,
-          "average": 0.000894044
+          "median": 0.000870097,
+          "average": 0.000870097
         },
         "durations": [
           {
-            "duration": 0.000894044,
+            "duration": 0.000870097,
             "location": "classpath:stepdef/scenariooutlines.feature:5"
           }
         ]
@@ -88,12 +88,12 @@
       {
         "name": "Complete action in \u0027when\u0027 step in \u0027Scenario One\u0027",
         "aggregatedDurations": {
-          "median": 0.000988694,
-          "average": 0.000988694
+          "median": 0.001000668,
+          "average": 0.001000668
         },
         "durations": [
           {
-            "duration": 0.000988694,
+            "duration": 0.001000668,
             "location": "classpath:stepdef/scenarios.feature:5"
           }
         ]
@@ -101,12 +101,12 @@
       {
         "name": "Complete action in \u0027when\u0027 step in \u0027Scenario Two\u0027",
         "aggregatedDurations": {
-          "median": 0.000711016,
-          "average": 0.000711016
+          "median": 0.000893474,
+          "average": 0.000893474
         },
         "durations": [
           {
-            "duration": 0.000711016,
+            "duration": 0.000893474,
             "location": "classpath:stepdef/scenarios.feature:10"
           }
         ]
@@ -119,12 +119,12 @@
       {
         "name": "Validate the outcome in \u0027then\u0027 step in \u0027Scenario Outline One\u0027",
         "aggregatedDurations": {
-          "median": 0.000742376,
-          "average": 0.000742376
+          "median": 0.000514873,
+          "average": 0.000514873
         },
         "durations": [
           {
-            "duration": 0.000742376,
+            "duration": 0.000514873,
             "location": "classpath:stepdef/scenariooutlines.feature:6"
           }
         ]
@@ -132,12 +132,12 @@
       {
         "name": "Validate the outcome in \u0027then\u0027 step in \u0027Scenario Outline Two\u0027",
         "aggregatedDurations": {
-          "median": 0.000826192,
-          "average": 0.000826192
+          "median": 0.000872947,
+          "average": 0.000872947
         },
         "durations": [
           {
-            "duration": 0.000826192,
+            "duration": 0.000872947,
             "location": "classpath:stepdef/scenariooutlines.feature:6"
           }
         ]
@@ -145,12 +145,12 @@
       {
         "name": "Validate the outcome in \u0027then\u0027 step in \u0027Scenario One\u0027",
         "aggregatedDurations": {
-          "median": 0.000893473,
-          "average": 0.000893473
+          "median": 0.000896895,
+          "average": 0.000896895
         },
         "durations": [
           {
-            "duration": 0.000893473,
+            "duration": 0.000896895,
             "location": "classpath:stepdef/scenarios.feature:6"
           }
         ]
@@ -158,12 +158,12 @@
       {
         "name": "Validate the outcome in \u0027then\u0027 step in \u0027Scenario Two\u0027",
         "aggregatedDurations": {
-          "median": 0.000604962,
-          "average": 0.000604962
+          "median": 0.000799964,
+          "average": 0.000799964
         },
         "durations": [
           {
-            "duration": 0.000604962,
+            "duration": 0.000799964,
             "location": "classpath:stepdef/scenarios.feature:11"
           }
         ]

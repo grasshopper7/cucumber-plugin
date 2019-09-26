@@ -5,7 +5,7 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.scenario({
-  "name": "Scenario Number One",
+  "name": "Exception scenario",
   "description": "",
   "keyword": "Scenario"
 });
